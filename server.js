@@ -9,7 +9,7 @@ const PDFDocument = require("pdfkit");
 const app = express();
 const PORT = 3000;
 
-// JSON storage file for receipts
+/// JSON storage file for receipts
 const receiptsFile = path.join(__dirname, "receipts.json");
 
 // Middleware
